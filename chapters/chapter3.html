@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter3</title>
+    
+    <link rel="stylesheet" href="/chaptercss/chapter3.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="boddss3">
+    <h1>Chapter 3</h1>
+    <h2>Results and Discussion</h2>
+    <h3>Introduction</h3>
+    <p>This chapter presents the results and analysis of the design and implementation of a 
+        reference frequency identification (RFID), keypad lock, and short message service 
+        (SMS) security system. The system was developed using an Arduino-based platform with an alert system.</p>
+    <p>In this chapter, the experimental setup and methodology used to collect data for the project will be described, followed by the presentation and analysis of the data collected. The performance of the RFID, keypad lock, and SMS security system will also be evaluated and compared to other similar systems.</p>
+    <p>Furthermore, this chapter will provide an overview of the software used in the project, including any programming languages or libraries utilized, and discuss any challenges or limitations encountered during the development of the software.</p>
+    <p>Overall, the results and analysis presented in this chapter will demonstrate the effectiveness of the RFID, keypad lock, and SMS security system and provide insights into its performance and limitationse</p>
+    <h3>Experimental</h3>
+    <p>The approach and setting utilized to collect data for the study are described in the experimental section. A thorough explanation of the hardware, software, and testing methods utilized in the project are provided in this section.</p>
+
+    <p>1.&nbsp;&nbsp;Test the unregistered RFID: This test is conducted to ensure that the system can identify unregistered RFID tags. The system is tested with a variety of RFID tags that are not registered in the system (it will show on figure 3)</p>  
+    <p>2.&nbsp;&nbsp;Test the efficiency of the RFID scan: This test is conducted to evaluate the efficiency of the RFID scanning process. The system is tested with a numbers of RFID tags, and the time taken to scan each tag is recorded. The data is then analyzed to determine the average scanning time and the efficiency of the scanning process. (it will show on figure 2)</p>
+    <p>3.&nbsp;&nbsp;Test the keypad lock: This test is conducted to ensure that the keypad lock is functioning properly. The system is tested with different combinations of keys, and the data is collected and recorded.</p>
+    <img src="/chapter3img/Picture1.png">
+    <P id="psst">Figure 4.<br></P>
+    <p>4.This test is conducted to ensure that the buzzer system is functioning properly. The system is tested by triggering the buzzer using various methods, and the data is collected and recorded.</p>
+    <p>5.Test the SMS security system: This test is conducted to ensure that the SMS security system is functioning properly. The system is tested by sending messages to the system, and the data is collected and recorded.</p>
+    <img src="/chapter3img/Picture2.png">
+    <p id="psst">Figure 5.<br>
+        System send OTP</p>
+    <img src="/chapter3img/Picture3.png">
+    <P id="psst">Figure 6. <br>
+        Door Opened Notification</P>
+    <img src="/chapter3img/Picture4.png">
+    <p id="psst">Figure 7.<br>
+        Attempted to Open Notification</p>
+    <p>6.Test the OTP (One-time password): This test is conducted to ensure that the OTP system is functioning properly. The system is tested with different combinations of OTP </p>
+    <p>7.Test the alarm: This test is conducted to ensure that the alarm system is functioning properly. The system is tested by triggering the alarm using various methods, and the data is collected and recorded.</p>
+    <p>8.Test the two LED (Light-emitting diodes), green and red: This test is conducted to ensure that the two LED are functioning properly. The system is tested by turning on and off the green and red LED, and the data is collected and recorded.</p>
+    <img src="/chapter3img/Picture5.png">
+    <p id="psst">Figure 8.<br>
+        Green Light</p>
+    <img src="/chapter3img/Picture6.png">
+    <p id="psst">Figure 9.<br>
+        Red Light</p>
+    <p>9.Test the system itself:
+    This test is conducted to ensure that the entire system is functioning properly. The system is tested by performing a series of tasks, such as scanning RFID tags, entering keypad codes, and sending SMS messages. The data is collected and recorded to determine the effectiveness of the system.</p>
+    <img src="/chapter3img/Picture7.png" >
+    <p id="psst">Figure 10.<br>
+        The system</p>
+        <p>10.Test the bypass feature: This test is conducted to ensure that the bypass feature is functioning properly. The system is tested by attempting to bypass the security system using different methods, such as disconnecting the power supply, tampering with the wiring, or using a master key. The data is collected and recorded.</p>
+
+    <h3>Results and Analysis</h3>
+    <h3>Experiment data</h3>
+    <p>Here are some of the data of research experiments.</p>
+
+
+<div class="containerofexpdata">
+    <div class="sss"></div>
+    <div class="sss">Red/green</div>
+    <div class="sss"></div>
+    <div class="sss">RFID Samples </div>
+    <div class="sss1">Red</div>
+    <div class="sss">Wrong</div>
+    <div class="sss">RFID Sample-1 </div>
+    <div class="sss2">Green</div>
+    <div class="sss">Right</div>
+    <div class="sss">RFID Sample-2</div>
+    <div class="sss1">Red</div>
+    <div class="sss">Wrong</div>
+    <div class="sss">RFID Sample-3 </div>
+    <div class="sss1">Red</div>
+    <div class="sss">Wrong</div>
+    <div class="sss">RFID Sample-4</div>
+    <div class="sss2">Green</div>
+    <div class="sss">Right</div>
+</div>
+    <p>Table 2.
+        RFID Sample Data</p>
+        <p>This data shows how efficient RFID keys, the red colour represent the red lights indicate that the RFID that used was not registered and the green colour was for green light it means the registered RFID was used </p>
+        <div class="containerofexpdata1">
+            <div class="cib">4</div>
+            <div class="cib"></div>
+            <div class="cib"></div>
+            <div class="cib"></div>
+            <div class="cib"></div>
+            <div class="cib">3</div>
+            <div class="cib">right</div>
+            <div class="cib"></div>
+            <div class="cib"></div>
+            <div class="cib"></div>
+            <div class="cib">2</div>
+            <div class="cib">Wrong</div>
+            <div class="cib">Right</div>
+            <div class="cib"></div>
+            <div class="cib"></div>
+            <div class="cib">1</div>
+            <div class="cib">Wrong</div>
+            <div class="cib">Wrong</div>
+            <div class="cib">Right</div>
+            <div class="cib"></div>
+            <div class="cib">0</div>
+            <div class="cib">1</div>
+            <div class="cib">2</div>
+            <div class="cib">3</div>
+            <div class="cib">4</div>
+           
+
+        </div>
+   <p>Table 3. <br>
+    Efficiency of RFID Keys</p>
+    <p>
+        At this column chart it will show how many attempts has been done on how many attempts can gives on the system.</p>
+    </body>
+</div>
+    <div class="btm"><button><a href="/index.html">back</a></button></div>
+</html>

@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.you h1{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 16%;
+   padding: 2%;
+    border: px solid rgb(17, 16, 16);
+    color: #ffffff;
+    opacity:0.5 ;
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+   
+}   
+
+
+body{
+   
+    background: linear-gradient(-45deg, #0f0d0d, #646263, #1b1c1d, #bdc2c1);
+	background-size: 400% 400%;
+	animation: wuu 19s ease infinite;
+    animation: transitionIn 1s;
+	
+}
+@keyframes wuu {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+ 
+.yuu{
+    margin-top: 1px;
+   
+}
+.yuu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.yuu ul li {
+    display: inline-block;
+   
+    
+}
+.yuu ul li a{
+    text-decoration:none;
+    color:black;
+    padding-right: 23px;
+   font-size: larger;
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.yuu a{
+    padding-left:24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.project ul li a:hover{
+    background: none;
+    border-radius:2%;
+    transform: scale(1.0);
+    transition-duration: 2s;
+
+   
+}
+.projects ul li a:hover{
+    background: none;
+    transform: scale(1.0);
+    transition-duration: 2s;
+    text-shadow: 0px 0px 2px black,
+    0px 0px 4px black,
+    0px 0px 6px black,
+    0px 0px 8px black,
+    0px 0px 10px black;
+    transform: scale(1.0);
+color: #fff;
+   
+}
+
+
+.project{
+    margin-top:70px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+}
+.project p{
+    margin:50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.project a{
+    text-decoration: none;
+    color: #0c0c0c;
+    border: px solid black;
+    border-radius: 5%;
+  
+}
+.project a:hover{
+    text-shadow: 0px 0px 2px black,
+                 0px 0px 4px black,
+                 0px 0px 6px black,
+                 0px 0px 8px black,
+                 0px 0px 10px black;
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #141414;
+    display: block;
+    transition: 1s;
+  }
+  
+.sidenav a:hover {
+    color: #e7e0e0;
+  }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+.main button{
+    background-color: transparent;
+    margin-top: 4px;
+    margin-left: 4px;
+    border: none;
+    
+}
+@media  screen and (max-width: 600px)    {
+    body{
+        display: grid;
+       
+        
+    }
+
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transition: rotateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transition: rotateY(0);
+    }
+
+}
